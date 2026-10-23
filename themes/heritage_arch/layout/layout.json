@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "themeName": "القوس التراثي",
+  "colors": {
+    "background": "#F1EEE9",
+    "primary": "#383D40",
+    "secondary": "#846747",
+    "cardBackground": "#00000000",
+    "activePrayerCard": "#00000000",
+    "nextPrayerCard": "#00000000",
+    "textColor": "#383D40",
+    "secondaryTextColor": "#77736E",
+    "accentColor": "#846747",
+    "clockColor": "#343B3F",
+    "dateColor": "#4A4B49",
+    "prayerTitleColor": "#383D40",
+    "prayerTimeColor": "#343B3F",
+    "iqamahTimeColor": "#846747"
+  },
+  "cardStyle": {
+    "cornerRadiusDp": 0,
+    "elevationDp": 0,
+    "borderWidthDp": 0,
+    "borderColorHex": "#00000000",
+    "showShadow": false
+  },
+  "elements": {
+    "mosqueName": {
+      "visible": false,
+      "fontSizeSp": 28,
+      "textColorHex": "#383D40",
+      "alignment": "center"
+    },
+    "clock": {
+      "visible": true,
+      "fontSizeSp": 72,
+      "textColorHex": "#343B3F",
+      "alignment": "center"
+    },
+    "hijriDate": {
+      "visible": true,
+      "fontSizeSp": 20,
+      "textColorHex": "#4A4B49",
+      "alignment": "center"
+    },
+    "gregorianDate": {
+      "visible": true,
+      "fontSizeSp": 18,
+      "textColorHex": "#4A4B49",
+      "alignment": "center"
+    },
+    "temperature": {
+      "visible": false,
+      "fontSizeSp": 18,
+      "textColorHex": "#383D40",
+      "alignment": "center"
+    },
+    "prayerTimes": {
+      "visible": true,
+      "fontSizeSp": 22,
+      "textColorHex": "#343B3F",
+      "alignment": "center"
+    },
+    "iqamah": {
+      "visible": false,
+      "fontSizeSp": 18,
+      "textColorHex": "#846747",
+      "alignment": "center"
+    },
+    "countdown": {
+      "visible": true,
+      "fontSizeSp": 16,
+      "textColorHex": "#383D40",
+      "alignment": "center"
+    },
+    "azkarBanner": {
+      "visible": false,
+      "fontSizeSp": 18,
+      "textColorHex": "#383D40",
+      "alignment": "center"
+    },
+    "qrCode": {
+      "visible": false
+    }
+  }
+}
