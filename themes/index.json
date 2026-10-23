@@ -10,7 +10,8 @@
       "thumbnailUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/thumbnail.webp",
       "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/manifest.json",
       "packageUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/heritage_arch.masjidtheme",
-      "version": 2
+      "version": 3,
+      "layoutSchema": "extended-v1"
     }
   ]
 }
