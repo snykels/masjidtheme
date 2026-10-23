@@ -1,20 +1,27 @@
 {
   "schemaVersion": 1,
   "themeName": "القوس التراثي",
+  "timeConfig": {
+    "showSeconds": false,
+    "showAmPm": true,
+    "is24h": false,
+    "amPmColor": "#77736E"
+  },
   "colors": {
-    "background": "#F1EEE9",
-    "primary": "#383D40",
+    "background": "#F3EFE7",
+    "primary": "#343A3D",
     "secondary": "#846747",
     "cardBackground": "#00000000",
     "activePrayerCard": "#00000000",
     "nextPrayerCard": "#00000000",
-    "textColor": "#383D40",
+    "textColor": "#343A3D",
     "secondaryTextColor": "#77736E",
     "accentColor": "#846747",
-    "clockColor": "#343B3F",
-    "dateColor": "#4A4B49",
-    "prayerTitleColor": "#383D40",
-    "prayerTimeColor": "#343B3F",
+    "clockColor": "#30373A",
+    "amPmColor": "#77736E",
+    "dateColor": "#57524D",
+    "prayerTitleColor": "#34383A",
+    "prayerTimeColor": "#30373A",
     "iqamahTimeColor": "#846747"
   },
   "cardStyle": {
@@ -24,63 +31,89 @@
     "borderColorHex": "#00000000",
     "showShadow": false
   },
+  "ticker": {
+    "visible": false,
+    "position": 0,
+    "backgroundColor": "#00000000",
+    "textColor": "#343A3D",
+    "titleBgColor": "#00000000",
+    "titleTextColor": "#343A3D",
+    "fontSizeSp": 18,
+    "speed": 5
+  },
+  "qrCode": {
+    "visible": false,
+    "position": 0,
+    "titleColor": "#343A3D",
+    "subtitleColor": "#77736E",
+    "sizeModifier": 100,
+    "offsetX": 0,
+    "offsetY": 0
+  },
   "elements": {
     "mosqueName": {
       "visible": false,
-      "fontSizeSp": 28,
-      "textColorHex": "#383D40",
-      "alignment": "center"
+      "fontSizeSp": 24,
+      "textColorHex": "#343A3D",
+      "alignment": "center",
+      "offsetX": 0,
+      "offsetY": 0
     },
     "clock": {
       "visible": true,
-      "fontSizeSp": 72,
-      "textColorHex": "#343B3F",
-      "alignment": "center"
+      "fontSizeSp": 52,
+      "textColorHex": "#30373A",
+      "alignment": "center",
+      "offsetX": 0,
+      "offsetY": 0
     },
     "hijriDate": {
       "visible": true,
-      "fontSizeSp": 20,
-      "textColorHex": "#4A4B49",
-      "alignment": "center"
+      "fontSizeSp": 13,
+      "textColorHex": "#57524D",
+      "alignment": "center",
+      "offsetX": 0,
+      "offsetY": 0
     },
     "gregorianDate": {
       "visible": true,
-      "fontSizeSp": 18,
-      "textColorHex": "#4A4B49",
-      "alignment": "center"
+      "fontSizeSp": 13,
+      "textColorHex": "#57524D",
+      "alignment": "center",
+      "offsetX": 0,
+      "offsetY": 0
     },
     "temperature": {
       "visible": false,
-      "fontSizeSp": 18,
-      "textColorHex": "#383D40",
+      "fontSizeSp": 14,
+      "textColorHex": "#343A3D",
       "alignment": "center"
     },
     "prayerTimes": {
       "visible": true,
-      "fontSizeSp": 22,
-      "textColorHex": "#343B3F",
+      "fontSizeSp": 18,
+      "textColorHex": "#30373A",
       "alignment": "center"
     },
     "iqamah": {
       "visible": false,
-      "fontSizeSp": 18,
+      "fontSizeSp": 14,
       "textColorHex": "#846747",
       "alignment": "center"
     },
     "countdown": {
       "visible": true,
-      "fontSizeSp": 16,
-      "textColorHex": "#383D40",
-      "alignment": "center"
+      "fontSizeSp": 11,
+      "textColorHex": "#343A3D",
+      "alignment": "center",
+      "offsetX": 0,
+      "offsetY": 0
     },
     "azkarBanner": {
       "visible": false,
-      "fontSizeSp": 18,
-      "textColorHex": "#383D40",
+      "fontSizeSp": 16,
+      "textColorHex": "#343A3D",
       "alignment": "center"
-    },
-    "qrCode": {
-      "visible": false
     }
   }
 }
