@@ -54,9 +54,9 @@
   },
   "elements": {
     "mosqueName": {
-      "visible": false,
+      "visible": true,
       "fontSizeSp": 20,
-      "textColorHex": "#554F49",
+      "textColorHex": "#6A625B",
       "alignment": "center",
       "offsetX": 0,
       "offsetY": 0
@@ -145,83 +145,99 @@
           "type": "line",
           "bounds": {
             "x": 0.535,
-            "y": 0.215,
+            "y": 0.235,
             "w": 0.0022,
-            "h": 0.565
+            "h": 0.535
           },
           "backgroundColorHex": "#6B8A847E",
           "borderColorHex": "#00000000",
           "borderWidthDp": 0,
           "cornerRadiusDp": 0,
-          "opacity": 0.55,
+          "opacity": 0.52,
           "visible": true
         },
         {
-          "type": "circle",
+          "type": "open_arch",
           "bounds": {
-            "x": 0.671,
+            "x": 0.662,
             "y": 0.485,
-            "w": 0.066,
-            "h": 0.105
+            "w": 0.078,
+            "h": 0.115
           },
           "backgroundColorHex": "#00000000",
-          "borderColorHex": "#808A847E",
+          "borderColorHex": "#7A7B746E",
           "borderWidthDp": 2,
-          "cornerRadiusDp": 999,
-          "opacity": 0.75,
+          "cornerRadiusDp": 0,
+          "opacity": 0.78,
           "visible": true
         },
         {
-          "type": "circle",
+          "type": "open_arch",
           "bounds": {
-            "x": 0.866,
+            "x": 0.858,
             "y": 0.485,
-            "w": 0.066,
-            "h": 0.105
+            "w": 0.078,
+            "h": 0.115
           },
           "backgroundColorHex": "#00000000",
-          "borderColorHex": "#808A847E",
+          "borderColorHex": "#7A7B746E",
           "borderWidthDp": 2,
-          "cornerRadiusDp": 999,
-          "opacity": 0.75,
+          "cornerRadiusDp": 0,
+          "opacity": 0.78,
+          "visible": true
+        },
+        {
+          "type": "open_arch",
+          "bounds": {
+            "x": 0.677,
+            "y": 0.105,
+            "w": 0.08,
+            "h": 0.1
+          },
+          "backgroundColorHex": "#00000000",
+          "borderColorHex": "#637C7167",
+          "borderWidthDp": 1,
+          "cornerRadiusDp": 0,
+          "opacity": 0.72,
           "visible": true
         }
       ],
       "mosqueName": {
+        "x": 0.61,
+        "y": 0.175,
+        "w": 0.215,
+        "h": 0.08,
+        "visible": true,
+        "fontSizeSp": 20,
+        "textColorHex": "#6A625B",
+        "alignment": "center",
+        "opacity": 0.95
+      },
+      "logo": {
         "x": 0,
         "y": 0,
         "w": 0,
         "h": 0,
         "visible": false,
-        "fontSizeSp": 20,
-        "textColorHex": "#554F49",
-        "alignment": "center"
-      },
-      "logo": {
-        "x": 0.642,
-        "y": 0.115,
-        "w": 0.255,
-        "h": 0.165,
-        "visible": true,
         "alignment": "center"
       },
       "clock": {
-        "x": 0.615,
-        "y": 0.285,
-        "w": 0.305,
-        "h": 0.19,
+        "x": 0.585,
+        "y": 0.305,
+        "w": 0.26,
+        "h": 0.2,
         "visible": true,
-        "fontSizeSp": 118,
+        "fontSizeSp": 112,
         "textColorHex": "#30363A",
         "alignment": "center"
       },
       "weekday": {
-        "x": 0.693,
+        "x": 0.655,
         "y": 0.615,
-        "w": 0.18,
+        "w": 0.115,
         "h": 0.095,
         "visible": true,
-        "fontSizeSp": 30,
+        "fontSizeSp": 28,
         "textColorHex": "#554F49",
         "alignment": "center"
       },
@@ -246,19 +262,240 @@
         "alignment": "center"
       },
       "gregorianDay": {
-        "x": 0.681,
-        "y": 0.5,
-        "w": 0.045,
+        "x": 0.676,
+        "y": 0.515,
+        "w": 0.05,
         "h": 0.075,
+        "visible": true,
+        "fontSizeSp": 21,
+        "textColorHex": "#554F49",
+        "alignment": "center"
+      },
+      "gregorianMonth": {
+        "x": 0.565,
+        "y": 0.515,
+        "w": 0.095,
+        "h": 0.04,
+        "visible": true,
+        "fontSizeSp": 17,
+        "textColorHex": "#554F49",
+        "alignment": "center"
+      },
+      "gregorianYear": {
+        "x": 0.58,
+        "y": 0.552,
+        "w": 0.07,
+        "h": 0.032,
+        "visible": true,
+        "fontSizeSp": 10,
+        "textColorHex": "#554F49",
+        "alignment": "center"
+      },
+      "hijriDay": {
+        "x": 0.872,
+        "y": 0.515,
+        "w": 0.05,
+        "h": 0.075,
+        "visible": true,
+        "fontSizeSp": 21,
+        "textColorHex": "#554F49",
+        "alignment": "center"
+      },
+      "hijriMonth": {
+        "x": 0.755,
+        "y": 0.515,
+        "w": 0.1,
+        "h": 0.04,
+        "visible": true,
+        "fontSizeSp": 16,
+        "textColorHex": "#554F49",
+        "alignment": "center"
+      },
+      "hijriYear": {
+        "x": 0.775,
+        "y": 0.552,
+        "w": 0.07,
+        "h": 0.032,
+        "visible": true,
+        "fontSizeSp": 10,
+        "textColorHex": "#554F49",
+        "alignment": "center"
+      },
+      "temperature": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "visible": false,
+        "fontSizeSp": 14,
+        "textColorHex": "#30363A",
+        "alignment": "center"
+      },
+      "divider": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "visible": false,
+        "textColorHex": "#00000000",
+        "alignment": "center"
+      },
+      "prayerTable": {
+        "x": 0.14,
+        "y": 0.145,
+        "w": 0.39,
+        "h": 0.715,
+        "showHeader": true,
+        "headerFontSizeSp": 17,
+        "rowSpacingDp": 2,
+        "rowGapAfter": null,
+        "gapDp": 0,
+        "paddingDp": 0,
+        "showEnglishNames": true,
+        "prayerTimeFontSizeSp": 50,
+        "prayerNameFontSizeSp": 48,
+        "iqamahFontSizeSp": 16,
+        "amPmFontSizeSp": 12,
+        "englishNameFontSizeSp": 17,
+        "englishNameColorHex": "#8A847E",
+        "rowBackgroundColorHex": "#14B8B1A8",
+        "rowPaddingHorizontalDp": 8
+      },
+      "countdown": {
+        "x": 0.615,
+        "y": 0.75,
+        "w": 0.3,
+        "h": 0.06,
+        "visible": true,
+        "style": "singleLine",
+        "showProgress": false,
+        "showPrayerName": false,
+        "showLabel": false,
+        "fontSizeSp": 12,
+        "textTemplate": "prayer remaining {prayerEn} for {minutes} minutes"
+      }
+    },
+    "portrait": {
+      "shapes": [
+        {
+          "type": "open_arch",
+          "bounds": {
+            "x": 0.17,
+            "y": 0.22,
+            "w": 0.16,
+            "h": 0.095
+          },
+          "backgroundColorHex": "#00000000",
+          "borderColorHex": "#7A7B746E",
+          "borderWidthDp": 2,
+          "cornerRadiusDp": 0,
+          "opacity": 0.78,
+          "visible": true
+        },
+        {
+          "type": "open_arch",
+          "bounds": {
+            "x": 0.67,
+            "y": 0.22,
+            "w": 0.16,
+            "h": 0.095
+          },
+          "backgroundColorHex": "#00000000",
+          "borderColorHex": "#7A7B746E",
+          "borderWidthDp": 2,
+          "cornerRadiusDp": 0,
+          "opacity": 0.78,
+          "visible": true
+        },
+        {
+          "type": "open_arch",
+          "bounds": {
+            "x": 0.43,
+            "y": 0.065,
+            "w": 0.14,
+            "h": 0.105
+          },
+          "backgroundColorHex": "#00000000",
+          "borderColorHex": "#637C7167",
+          "borderWidthDp": 1,
+          "cornerRadiusDp": 0,
+          "opacity": 0.72,
+          "visible": true
+        }
+      ],
+      "mosqueName": {
+        "x": 0.285,
+        "y": 0.145,
+        "w": 0.43,
+        "h": 0.075,
+        "visible": true,
+        "fontSizeSp": 20,
+        "textColorHex": "#6A625B",
+        "alignment": "center",
+        "opacity": 0.95
+      },
+      "logo": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "visible": false,
+        "alignment": "center"
+      },
+      "clock": {
+        "x": 0.215,
+        "y": 0.185,
+        "w": 0.57,
+        "h": 0.125,
+        "visible": true,
+        "fontSizeSp": 120,
+        "textColorHex": "#30363A",
+        "alignment": "center"
+      },
+      "weekday": {
+        "x": 0.34,
+        "y": 0.305,
+        "w": 0.32,
+        "h": 0.08,
+        "visible": true,
+        "fontSizeSp": 31,
+        "textColorHex": "#554F49",
+        "alignment": "center"
+      },
+      "gregorianDate": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "visible": false,
+        "fontSizeSp": 1,
+        "textColorHex": "#00000000",
+        "alignment": "center"
+      },
+      "hijriDate": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0,
+        "visible": false,
+        "fontSizeSp": 1,
+        "textColorHex": "#00000000",
+        "alignment": "center"
+      },
+      "gregorianDay": {
+        "x": 0.21,
+        "y": 0.24,
+        "w": 0.08,
+        "h": 0.06,
         "visible": true,
         "fontSizeSp": 22,
         "textColorHex": "#554F49",
         "alignment": "center"
       },
       "gregorianMonth": {
-        "x": 0.575,
-        "y": 0.505,
-        "w": 0.09,
+        "x": 0.105,
+        "y": 0.3,
+        "w": 0.19,
         "h": 0.045,
         "visible": true,
         "fontSizeSp": 18,
@@ -266,40 +503,40 @@
         "alignment": "center"
       },
       "gregorianYear": {
-        "x": 0.588,
-        "y": 0.548,
-        "w": 0.07,
-        "h": 0.035,
+        "x": 0.135,
+        "y": 0.34,
+        "w": 0.13,
+        "h": 0.032,
         "visible": true,
         "fontSizeSp": 11,
         "textColorHex": "#554F49",
         "alignment": "center"
       },
       "hijriDay": {
-        "x": 0.876,
-        "y": 0.5,
-        "w": 0.045,
-        "h": 0.075,
+        "x": 0.71,
+        "y": 0.24,
+        "w": 0.08,
+        "h": 0.06,
         "visible": true,
         "fontSizeSp": 22,
         "textColorHex": "#554F49",
         "alignment": "center"
       },
       "hijriMonth": {
-        "x": 0.758,
-        "y": 0.505,
-        "w": 0.095,
+        "x": 0.675,
+        "y": 0.3,
+        "w": 0.16,
         "h": 0.045,
         "visible": true,
-        "fontSizeSp": 17,
+        "fontSizeSp": 18,
         "textColorHex": "#554F49",
         "alignment": "center"
       },
       "hijriYear": {
-        "x": 0.778,
-        "y": 0.548,
-        "w": 0.065,
-        "h": 0.035,
+        "x": 0.7,
+        "y": 0.34,
+        "w": 0.13,
+        "h": 0.032,
         "visible": true,
         "fontSizeSp": 11,
         "textColorHex": "#554F49",
@@ -325,242 +562,37 @@
         "alignment": "center"
       },
       "prayerTable": {
-        "x": 0.12,
-        "y": 0.155,
-        "w": 0.385,
-        "h": 0.705,
-        "showHeader": true,
-        "headerFontSizeSp": 18,
+        "x": 0.105,
+        "y": 0.395,
+        "w": 0.79,
+        "h": 0.54,
+        "showHeader": false,
+        "headerFontSizeSp": 16,
         "rowSpacingDp": 2,
-        "rowGapAfter": null,
-        "gapDp": 0,
+        "rowGapAfter": "asr",
+        "gapDp": 30,
         "paddingDp": 0,
         "showEnglishNames": true,
-        "prayerTimeFontSizeSp": 52,
-        "prayerNameFontSizeSp": 50,
+        "prayerTimeFontSizeSp": 56,
+        "prayerNameFontSizeSp": 54,
         "iqamahFontSizeSp": 16,
         "amPmFontSizeSp": 13,
         "englishNameFontSizeSp": 18,
         "englishNameColorHex": "#8A847E",
         "rowBackgroundColorHex": "#14B8B1A8",
-        "rowPaddingHorizontalDp": 8
+        "rowPaddingHorizontalDp": 9
       },
       "countdown": {
-        "x": 0.625,
-        "y": 0.755,
-        "w": 0.31,
-        "h": 0.055,
+        "x": 0.12,
+        "y": 0.725,
+        "w": 0.76,
+        "h": 0.048,
         "visible": true,
         "style": "singleLine",
         "showProgress": false,
         "showPrayerName": false,
         "showLabel": false,
         "fontSizeSp": 13,
-        "textTemplate": "prayer remaining {prayerEn} for {minutes} minutes"
-      }
-    },
-    "portrait": {
-      "shapes": [
-        {
-          "type": "circle",
-          "bounds": {
-            "x": 0.125,
-            "y": 0.225,
-            "w": 0.155,
-            "h": 0.095
-          },
-          "backgroundColorHex": "#00000000",
-          "borderColorHex": "#808A847E",
-          "borderWidthDp": 2,
-          "cornerRadiusDp": 999,
-          "opacity": 0.75,
-          "visible": true
-        },
-        {
-          "type": "circle",
-          "bounds": {
-            "x": 0.72,
-            "y": 0.225,
-            "w": 0.155,
-            "h": 0.095
-          },
-          "backgroundColorHex": "#00000000",
-          "borderColorHex": "#808A847E",
-          "borderWidthDp": 2,
-          "cornerRadiusDp": 999,
-          "opacity": 0.75,
-          "visible": true
-        }
-      ],
-      "mosqueName": {
-        "x": 0,
-        "y": 0,
-        "w": 0,
-        "h": 0,
-        "visible": false,
-        "fontSizeSp": 20,
-        "textColorHex": "#554F49",
-        "alignment": "center"
-      },
-      "logo": {
-        "x": 0.3,
-        "y": 0.065,
-        "w": 0.4,
-        "h": 0.135,
-        "visible": true,
-        "alignment": "center"
-      },
-      "clock": {
-        "x": 0.215,
-        "y": 0.175,
-        "w": 0.57,
-        "h": 0.135,
-        "visible": true,
-        "fontSizeSp": 126,
-        "textColorHex": "#30363A",
-        "alignment": "center"
-      },
-      "weekday": {
-        "x": 0.335,
-        "y": 0.3,
-        "w": 0.33,
-        "h": 0.09,
-        "visible": true,
-        "fontSizeSp": 32,
-        "textColorHex": "#554F49",
-        "alignment": "center"
-      },
-      "gregorianDate": {
-        "x": 0,
-        "y": 0,
-        "w": 0,
-        "h": 0,
-        "visible": false,
-        "fontSizeSp": 1,
-        "textColorHex": "#00000000",
-        "alignment": "center"
-      },
-      "hijriDate": {
-        "x": 0,
-        "y": 0,
-        "w": 0,
-        "h": 0,
-        "visible": false,
-        "fontSizeSp": 1,
-        "textColorHex": "#00000000",
-        "alignment": "center"
-      },
-      "gregorianDay": {
-        "x": 0.163,
-        "y": 0.237,
-        "w": 0.08,
-        "h": 0.07,
-        "visible": true,
-        "fontSizeSp": 24,
-        "textColorHex": "#554F49",
-        "alignment": "center"
-      },
-      "gregorianMonth": {
-        "x": 0.105,
-        "y": 0.302,
-        "w": 0.19,
-        "h": 0.05,
-        "visible": true,
-        "fontSizeSp": 20,
-        "textColorHex": "#554F49",
-        "alignment": "center"
-      },
-      "gregorianYear": {
-        "x": 0.13,
-        "y": 0.345,
-        "w": 0.14,
-        "h": 0.035,
-        "visible": true,
-        "fontSizeSp": 12,
-        "textColorHex": "#554F49",
-        "alignment": "center"
-      },
-      "hijriDay": {
-        "x": 0.758,
-        "y": 0.237,
-        "w": 0.08,
-        "h": 0.07,
-        "visible": true,
-        "fontSizeSp": 24,
-        "textColorHex": "#554F49",
-        "alignment": "center"
-      },
-      "hijriMonth": {
-        "x": 0.69,
-        "y": 0.302,
-        "w": 0.21,
-        "h": 0.05,
-        "visible": true,
-        "fontSizeSp": 19,
-        "textColorHex": "#554F49",
-        "alignment": "center"
-      },
-      "hijriYear": {
-        "x": 0.725,
-        "y": 0.345,
-        "w": 0.145,
-        "h": 0.035,
-        "visible": true,
-        "fontSizeSp": 12,
-        "textColorHex": "#554F49",
-        "alignment": "center"
-      },
-      "temperature": {
-        "x": 0,
-        "y": 0,
-        "w": 0,
-        "h": 0,
-        "visible": false,
-        "fontSizeSp": 14,
-        "textColorHex": "#30363A",
-        "alignment": "center"
-      },
-      "divider": {
-        "x": 0,
-        "y": 0,
-        "w": 0,
-        "h": 0,
-        "visible": false,
-        "textColorHex": "#00000000",
-        "alignment": "center"
-      },
-      "prayerTable": {
-        "x": 0.105,
-        "y": 0.4,
-        "w": 0.79,
-        "h": 0.535,
-        "showHeader": false,
-        "headerFontSizeSp": 16,
-        "rowSpacingDp": 2,
-        "rowGapAfter": "asr",
-        "gapDp": 32,
-        "paddingDp": 0,
-        "showEnglishNames": true,
-        "prayerTimeFontSizeSp": 58,
-        "prayerNameFontSizeSp": 56,
-        "iqamahFontSizeSp": 16,
-        "amPmFontSizeSp": 14,
-        "englishNameFontSizeSp": 19,
-        "englishNameColorHex": "#8A847E",
-        "rowBackgroundColorHex": "#14B8B1A8",
-        "rowPaddingHorizontalDp": 10
-      },
-      "countdown": {
-        "x": 0.115,
-        "y": 0.742,
-        "w": 0.77,
-        "h": 0.045,
-        "visible": true,
-        "style": "singleLine",
-        "showProgress": false,
-        "showPrayerName": false,
-        "showLabel": false,
-        "fontSizeSp": 14,
         "textTemplate": "prayer remaining {prayerEn} for {minutes} minutes"
       }
     }
