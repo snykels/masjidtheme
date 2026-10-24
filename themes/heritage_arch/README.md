@@ -1,29 +1,32 @@
 # القوس التراثي
 
-ثيم تراثي بألوان فحمية وعاجية ولمسات ذهبية.
-
 ## النسخة الحالية
-- Theme version: 3
+- Theme version: 4
+- Schema version: 1
+- Theme number: 1
 - Layout schema: extended-v1
-- manifest.json: جاهز
-- layout/layout.json: جاهز
-- assets/portrait.webp: موجود 1080×1920
-- assets/landscape.webp: موجود 1920×1080
-- thumbnail.webp: موجود
-- dist/heritage_arch.masjidtheme: يعاد بناؤه مع كل تحديث
 
-## ملاحظات v3
-- أضيف Layout مستقل للـ landscape والـ portrait بإحداثيات normalized من 0 إلى 1.
-- Landscape: جدول الصلاة يسار، الساعة/التاريخ/العد التنازلي يمين.
-- Portrait: الساعة والتاريخ بالأعلى، جدول الصلاة بالأسفل، والعد التنازلي بين العصر والمغرب.
-- تمت إضافة weekday كعنصر مستقل.
-- countdown يستخدم compact بدون progress.
-- الساعة الرئيسية بدون AM/PM، وأوقات الصلاة مجهزة لإظهار AM/PM بشكل مستقل عند دعم المحرك.
-- المفاتيح القديمة ما زالت موجودة كـ fallback للتوافق مع التطبيق الحالي.
-- لا توجد خطوط خارجية داخل الحزمة حتى يكتمل دعم تحميل الخطوط من الثيم.
+## الملفات
+- manifest.json
+- thumbnail.webp
+- assets/portrait.webp — 1080×1920
+- assets/landscape.webp — 1920×1080
+- layout/layout.json
+- dist/heritage_arch.masjidtheme
 
-## الخلفيات
-- assets/portrait.webp
-- assets/landscape.webp
+## v4
+تمت مطابقة layout.json مع المفاتيح التي يقرأها محرك Al-Masjid الحالي فعليًا:
+- timeConfig.clockShowAmPm
+- timeConfig.prayerShowAmPm
+- timeConfig.amPmFontSizeSp
+- layouts.landscape / layouts.portrait
+- prayerTable.rowSpacingDp
+- prayerTable.rowGapAfter
+- prayerTable.gapDp
+- countdown compact
+- weekday كعنصر مستقل
 
-يجب على التطبيق اختيار الخلفية بناءً على اتجاه الـ layout النهائي بعد RotatedLayout، وليس اتجاه الجهاز الخام.
+تم حذف المفاتيح التي لا يقرأها المحرك حاليًا مثل contentDirection وdateArea وgapSize.
+
+ملاحظة تقنية:
+المحرك الحالي يقوم بقراءة x/y/w/h من JSON لكنه لا يطبّق bounds على Compose حتى الآن؛ لذلك المواضع المحفوظة هنا جاهزة للمحرك عند اكتمال تطبيقها في MainScreen.
