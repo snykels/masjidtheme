@@ -6,7 +6,7 @@
   "themeNumber": 1,
   "name": "القوس التراثي",
   "slug": "heritage_arch",
-  "version": 4,
+  "version": 5,
   "enabled": true,
   "thumbnail": "thumbnail.webp",
   "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/heritage_arch.masjidtheme",
