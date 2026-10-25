@@ -188,7 +188,7 @@
           "visible": true
         },
         {
-          "type": "open_arch",
+          "type": "path",
           "bounds": {
             "x": 0.64,
             "y": 0.105,
@@ -200,7 +200,11 @@
           "borderWidthDp": 1,
           "cornerRadiusDp": 0,
           "opacity": 0.72,
-          "visible": true
+          "visible": true,
+          "pathCommands": [
+            {"op": "M", "values": [0.0, 1.0]},
+            {"op": "C", "values": [0.0, 0.12, 1.0, 0.12, 1.0, 1.0]}
+          ]
         }
       ],
       "mosqueName": {
@@ -226,11 +230,11 @@
       },
       "clock": {
         "x": 0.53,
-        "y": 0.235,
+        "y": 0.215,
         "w": 0.29,
-        "h": 0.2,
+        "h": 0.25,
         "visible": true,
-        "fontSizeSp": 82,
+        "fontSizeSp": 98,
         "textColorHex": "#30363A",
         "alignment": "center",
         "fontRole": "clock",
@@ -371,11 +375,11 @@
         "gapDp": 0,
         "paddingDp": 0,
         "showEnglishNames": true,
-        "prayerTimeFontSizeSp": 32,
-        "prayerNameFontSizeSp": 32,
+        "prayerTimeFontSizeSp": 40,
+        "prayerNameFontSizeSp": 38,
         "iqamahFontSizeSp": 16,
         "amPmFontSizeSp": 12,
-        "englishNameFontSizeSp": 11,
+        "englishNameFontSizeSp": 13,
         "englishNameColorHex": "#8A847E",
         "rowBackgroundColorHex": "#14B8B1A8",
         "rowPaddingHorizontalDp": 8
@@ -390,8 +394,8 @@
         "showProgress": false,
         "showPrayerName": false,
         "showLabel": false,
-        "fontSizeSp": 12,
-        "textTemplate": "prayer remaining {prayerEn} for {minutes} minutes"
+        "fontSizeSp": 18,
+        "textTemplate": "متبقي على صلاة {prayerAr} {minutes} دقيقة"
       }
     },
     "portrait": {
@@ -427,7 +431,7 @@
           "visible": true
         },
         {
-          "type": "open_arch",
+          "type": "path",
           "bounds": {
             "x": 0.43,
             "y": 0.065,
@@ -439,7 +443,11 @@
           "borderWidthDp": 1,
           "cornerRadiusDp": 0,
           "opacity": 0.72,
-          "visible": true
+          "visible": true,
+          "pathCommands": [
+            {"op": "M", "values": [0.0, 1.0]},
+            {"op": "C", "values": [0.0, 0.12, 1.0, 0.12, 1.0, 1.0]}
+          ]
         }
       ],
       "mosqueName": {
@@ -469,7 +477,7 @@
         "w": 0.48,
         "h": 0.135,
         "visible": true,
-        "fontSizeSp": 96,
+        "fontSizeSp": 110,
         "textColorHex": "#30363A",
         "alignment": "center",
         "fontRole": "clock",
@@ -602,7 +610,7 @@
         "x": 0.105,
         "y": 0.395,
         "w": 0.79,
-        "h": 0.54,
+        "h": 0.45,
         "showHeader": false,
         "headerFontSizeSp": 16,
         "rowSpacingDp": 2,
@@ -610,38 +618,39 @@
         "gapDp": 30,
         "paddingDp": 0,
         "showEnglishNames": true,
-        "prayerTimeFontSizeSp": 38,
-        "prayerNameFontSizeSp": 38,
+        "prayerTimeFontSizeSp": 46,
+        "prayerNameFontSizeSp": 46,
         "iqamahFontSizeSp": 16,
         "amPmFontSizeSp": 13,
-        "englishNameFontSizeSp": 14,
+        "englishNameFontSizeSp": 16,
         "englishNameColorHex": "#8A847E",
         "rowBackgroundColorHex": "#14B8B1A8",
         "rowPaddingHorizontalDp": 9
       },
       "countdown": {
         "x": 0.12,
-        "y": 0.725,
+        "y": 0.865,
         "w": 0.76,
-        "h": 0.048,
+        "h": 0.06,
         "visible": true,
         "style": "singleLine",
         "showProgress": false,
         "showPrayerName": false,
         "showLabel": false,
-        "fontSizeSp": 13,
-        "textTemplate": "prayer remaining {prayerEn} for {minutes} minutes"
+        "fontSizeSp": 16,
+        "textTemplate": "متبقي على صلاة {prayerAr} {minutes} دقيقة"
       }
     }
   },
   "fonts": {
-    "default": "fonts/regular.ttf",
-    "clock": "fonts/clock.ttf",
-    "prayer": "fonts/prayer.ttf",
-    "prayerTime": "fonts/prayer_time.ttf",
-    "prayerName": "fonts/prayer_name.ttf",
-    "prayerEnglish": "fonts/prayer_english.ttf",
-    "date": "fonts/date.ttf",
-    "weekday": "fonts/weekday.ttf"
+    "default": "fonts/NotoSansArabic-Variable.ttf",
+    "clock": "fonts/NotoSansArabic-Variable.ttf",
+    "prayer": "fonts/NotoSansArabic-Variable.ttf",
+    "prayerTime": "fonts/NotoSansArabic-Variable.ttf",
+    "prayerName": "fonts/NotoSansArabic-Variable.ttf",
+    "prayerEnglish": "fonts/NotoSansArabic-Variable.ttf",
+    "date": "fonts/NotoSansArabic-Variable.ttf",
+    "weekday": "fonts/NotoSansArabic-Variable.ttf",
+    "mosque": "fonts/NotoSansArabic-Variable.ttf"
   }
 }
