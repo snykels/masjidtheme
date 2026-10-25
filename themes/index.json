@@ -13,6 +13,19 @@
       "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/thumbnail.webp",
       "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/heritage_arch.masjidtheme",
       "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/manifest.json"
+    },
+    {
+      "id": "mihrab_screens",
+      "number": 2,
+      "version": 1,
+      "name": "محراب النقوش",
+      "enabled": true,
+      "order": 2,
+      "size": 378915,
+      "sha256": "a255dbeaf9cec4e2007a32da170036e10e8c8608ff83f96371cf366414a9f914",
+      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/mihrab_screens/thumbnail.jpg",
+      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/mihrab_screens.masjidtheme",
+      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/mihrab_screens/manifest.json"
     }
   ]
 }

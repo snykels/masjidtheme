@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "themeName": "محراب النقوش",
+  "timeConfig": {
+    "showSeconds": true,
+    "clockShowAmPm": false,
+    "prayerShowAmPm": false,
+    "is24h": false,
+    "numberFormat": 0,
+    "amPmColor": "#171615",
+    "amPmFontSizeSp": 10
+  },
+  "colors": {
+    "background": "#F7F1DF",
+    "primary": "#171615",
+    "secondary": "#9C7B3E",
+    "cardBackground": "#00000000",
+    "activePrayerCard": "#00000000",
+    "nextPrayerCard": "#00000000",
+    "textColor": "#171615",
+    "secondaryTextColor": "#69645A",
+    "accentColor": "#171615",
+    "clockColor": "#111111",
+    "amPmColor": "#171615",
+    "dateColor": "#171615",
+    "prayerTitleColor": "#151413",
+    "prayerTimeColor": "#A9343B",
+    "iqamahTimeColor": "#23815B"
+  },
+  "cardStyle": {
+    "cornerRadiusDp": 0,
+    "elevationDp": 0,
+    "borderWidthDp": 0,
+    "borderColorHex": "#00000000",
+    "showShadow": false
+  },
+  "ticker": {
+    "visible": false
+  },
+  "qrCode": {
+    "visible": false
+  },
+  "elements": {
+    "mosqueName": {
+      "visible": true,
+      "fontSizeSp": 28,
+      "textColorHex": "#171615"
+    },
+    "clock": {
+      "visible": true,
+      "fontSizeSp": 60,
+      "textColorHex": "#111111"
+    },
+    "weekday": {
+      "visible": true,
+      "fontSizeSp": 28,
+      "textColorHex": "#171615"
+    },
+    "hijriDate": {
+      "visible": false,
+      "fontSizeSp": 1,
+      "textColorHex": "#00000000"
+    },
+    "gregorianDate": {
+      "visible": false,
+      "fontSizeSp": 1,
+      "textColorHex": "#00000000"
+    },
+    "temperature": {
+      "visible": false,
+      "fontSizeSp": 1,
+      "textColorHex": "#00000000"
+    },
+    "prayerTimes": {
+      "visible": true,
+      "fontSizeSp": 30,
+      "textColorHex": "#A9343B"
+    },
+    "prayerName": {
+      "visible": true,
+      "fontSizeSp": 30,
+      "textColorHex": "#151413"
+    },
+    "tableHeader": {
+      "visible": true,
+      "fontSizeSp": 22,
+      "textColorHex": "#151413"
+    },
+    "iqamah": {
+      "visible": true,
+      "fontSizeSp": 29,
+      "textColorHex": "#23815B"
+    },
+    "countdown": {
+      "visible": true,
+      "fontSizeSp": 24,
+      "textColorHex": "#171615"
+    },
+    "azkarBanner": {
+      "visible": false,
+      "fontSizeSp": 1,
+      "textColorHex": "#00000000"
+    }
+  },
+  "layouts": {
+    "landscape": {
+      "mosqueName": {
+        "x": 0.31,
+        "y": 0.035,
+        "w": 0.38,
+        "h": 0.07,
+        "visible": true,
+        "fontSizeSp": 27,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "mosque",
+        "fontWeight": "normal"
+      },
+      "clock": {
+        "x": 0.25,
+        "y": 0.105,
+        "w": 0.5,
+        "h": 0.15,
+        "visible": true,
+        "fontSizeSp": 67,
+        "textColorHex": "#111111",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "weekday": {
+        "x": 0.36,
+        "y": 0.25,
+        "w": 0.28,
+        "h": 0.06,
+        "visible": true,
+        "fontSizeSp": 29,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "hijriDay": {
+        "x": 0.7,
+        "y": 0.32,
+        "w": 0.15,
+        "h": 0.045,
+        "visible": true,
+        "fontSizeSp": 24,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "hijriMonth": {
+        "x": 0.405,
+        "y": 0.32,
+        "w": 0.19,
+        "h": 0.045,
+        "visible": true,
+        "fontSizeSp": 23,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "mosque",
+        "fontWeight": "normal"
+      },
+      "hijriYear": {
+        "x": 0.15,
+        "y": 0.32,
+        "w": 0.15,
+        "h": 0.045,
+        "visible": true,
+        "fontSizeSp": 24,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "gregorianDay": {
+        "x": 0.7,
+        "y": 0.37,
+        "w": 0.15,
+        "h": 0.045,
+        "visible": true,
+        "fontSizeSp": 23,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "gregorianMonth": {
+        "x": 0.405,
+        "y": 0.37,
+        "w": 0.19,
+        "h": 0.045,
+        "visible": true,
+        "fontSizeSp": 23,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "normal"
+      },
+      "gregorianYear": {
+        "x": 0.15,
+        "y": 0.37,
+        "w": 0.15,
+        "h": 0.045,
+        "visible": true,
+        "fontSizeSp": 23,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "prayerTable": {
+        "x": 0.09,
+        "y": 0.44,
+        "w": 0.82,
+        "h": 0.4,
+        "showHeader": true,
+        "headerFontSizeSp": 20,
+        "rowSpacingDp": 1,
+        "gapDp": 0,
+        "paddingDp": 0,
+        "showEnglishNames": false,
+        "prayerTimeFontSizeSp": 27,
+        "prayerNameFontSizeSp": 27,
+        "iqamahFontSizeSp": 25,
+        "amPmFontSizeSp": 12,
+        "rowBackgroundColorHex": "#00000000",
+        "rowPaddingHorizontalDp": 5,
+        "contentDirection": "ltr",
+        "sunriseLast": true,
+        "sunriseIqamahOffsetMinutes": 15,
+        "sunriseLabel": "الشروق/الضحى"
+      },
+      "countdown": {
+        "x": 0.52,
+        "y": 0.855,
+        "w": 0.36,
+        "h": 0.135,
+        "visible": true,
+        "style": "timer",
+        "fontSizeSp": 22,
+        "target": "adhan",
+        "label": "المتبقي للأذان التالي",
+        "textColorHex": "#B83C45"
+      },
+      "iqamahCountdown": {
+        "x": 0.12,
+        "y": 0.855,
+        "w": 0.36,
+        "h": 0.135,
+        "visible": true,
+        "style": "timer",
+        "fontSizeSp": 22,
+        "target": "iqamah",
+        "label": "المتبقي للإقامة",
+        "textColorHex": "#21805A"
+      },
+      "shapes": [
+        {
+          "type": "rectangle",
+          "bounds": {
+            "x": 0.035,
+            "y": 0.86,
+            "w": 0.93,
+            "h": 0.14
+          },
+          "backgroundColorHex": "#E7EEE9D8",
+          "borderColorHex": "#B59B62",
+          "borderWidthDp": 1,
+          "cornerRadiusDp": 0,
+          "opacity": 0.94,
+          "visible": true
+        }
+      ]
+    },
+    "portrait": {
+      "mosqueName": {
+        "x": 0.24,
+        "y": 0.072,
+        "w": 0.52,
+        "h": 0.053,
+        "visible": true,
+        "fontSizeSp": 30,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "mosque",
+        "fontWeight": "normal"
+      },
+      "clock": {
+        "x": 0.16,
+        "y": 0.125,
+        "w": 0.68,
+        "h": 0.105,
+        "visible": true,
+        "fontSizeSp": 60,
+        "textColorHex": "#111111",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "weekday": {
+        "x": 0.29,
+        "y": 0.228,
+        "w": 0.42,
+        "h": 0.055,
+        "visible": true,
+        "fontSizeSp": 30,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "hijriDay": {
+        "x": 0.7,
+        "y": 0.295,
+        "w": 0.17,
+        "h": 0.043,
+        "visible": true,
+        "fontSizeSp": 25,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "hijriMonth": {
+        "x": 0.36,
+        "y": 0.295,
+        "w": 0.28,
+        "h": 0.043,
+        "visible": true,
+        "fontSizeSp": 24,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "mosque",
+        "fontWeight": "normal"
+      },
+      "hijriYear": {
+        "x": 0.15,
+        "y": 0.295,
+        "w": 0.17,
+        "h": 0.043,
+        "visible": true,
+        "fontSizeSp": 25,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "gregorianDay": {
+        "x": 0.7,
+        "y": 0.337,
+        "w": 0.17,
+        "h": 0.043,
+        "visible": true,
+        "fontSizeSp": 25,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "gregorianMonth": {
+        "x": 0.36,
+        "y": 0.337,
+        "w": 0.28,
+        "h": 0.043,
+        "visible": true,
+        "fontSizeSp": 24,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "normal"
+      },
+      "gregorianYear": {
+        "x": 0.15,
+        "y": 0.337,
+        "w": 0.17,
+        "h": 0.043,
+        "visible": true,
+        "fontSizeSp": 25,
+        "textColorHex": "#171615",
+        "alignment": "center",
+        "fontRole": "arabic",
+        "fontWeight": "bold"
+      },
+      "prayerTable": {
+        "x": 0.12,
+        "y": 0.405,
+        "w": 0.76,
+        "h": 0.448,
+        "showHeader": true,
+        "headerFontSizeSp": 22,
+        "rowSpacingDp": 0,
+        "gapDp": 0,
+        "paddingDp": 0,
+        "showEnglishNames": false,
+        "prayerTimeFontSizeSp": 31,
+        "prayerNameFontSizeSp": 30,
+        "iqamahFontSizeSp": 29,
+        "amPmFontSizeSp": 12,
+        "rowBackgroundColorHex": "#00000000",
+        "rowPaddingHorizontalDp": 3,
+        "contentDirection": "ltr",
+        "sunriseLast": true,
+        "sunriseIqamahOffsetMinutes": 15,
+        "sunriseLabel": "الشروق/الضحى"
+      },
+      "countdown": {
+        "x": 0.51,
+        "y": 0.866,
+        "w": 0.38,
+        "h": 0.124,
+        "visible": true,
+        "style": "timer",
+        "fontSizeSp": 21,
+        "target": "adhan",
+        "label": "المتبقي للأذان التالي",
+        "textColorHex": "#B83C45"
+      },
+      "iqamahCountdown": {
+        "x": 0.11,
+        "y": 0.866,
+        "w": 0.38,
+        "h": 0.124,
+        "visible": true,
+        "style": "timer",
+        "fontSizeSp": 21,
+        "target": "iqamah",
+        "label": "المتبقي للإقامة",
+        "textColorHex": "#21805A"
+      },
+      "shapes": [
+        {
+          "type": "rectangle",
+          "bounds": {
+            "x": 0.035,
+            "y": 0.86,
+            "w": 0.93,
+            "h": 0.14
+          },
+          "backgroundColorHex": "#E7EEE9D8",
+          "borderColorHex": "#B59B62",
+          "borderWidthDp": 1,
+          "cornerRadiusDp": 0,
+          "opacity": 0.94,
+          "visible": true
+        }
+      ]
+    }
+  },
+  "fonts": {
+    "default": "builtin:formadjr-arabic",
+    "clock": "builtin:formadjr-arabic",
+    "prayer": "builtin:formadjr-arabic",
+    "prayerTime": "builtin:formadjr-arabic",
+    "prayerName": "builtin:formadjr-arabic",
+    "prayerEnglish": "builtin:formadjr-arabic",
+    "date": "builtin:formadjr-arabic",
+    "weekday": "builtin:formadjr-arabic",
+    "mosque": "builtin:decotype-thuluth"
+  }
+}

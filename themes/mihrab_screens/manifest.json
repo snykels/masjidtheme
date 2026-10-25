@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "minimumAppVersion": 10,
+  "id": 2,
+  "order": 2,
+  "themeNumber": 2,
+  "name": "محراب النقوش",
+  "slug": "mihrab_screens",
+  "version": 1,
+  "enabled": true,
+  "thumbnail": "thumbnail.jpg",
+  "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/mihrab_screens.masjidtheme",
+  "assets": {
+    "portrait": "assets/portrait.jpg",
+    "landscape": "assets/landscape.jpg"
+  },
+  "layout": "layout/layout.json",
+  "layoutSchema": "extended-v1"
+}
