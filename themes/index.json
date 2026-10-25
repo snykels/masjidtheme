@@ -4,12 +4,12 @@
     {
       "id": "heritage_arch",
       "number": 1,
-      "version": 12,
+      "version": 13,
       "name": "القوس التراثي",
       "enabled": true,
       "order": 1,
-      "size": 1170263,
-      "sha256": "944aa6c90c43e3a21d2f202e19485713613b17a2b09cfe8f90b78a67f26f736e",
+      "size": 1170261,
+      "sha256": "4bc716a63ea7dc5b32698fc7b551e93ffe9f24d06eca7150412f6ef4868d86bb",
       "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/thumbnail.webp",
       "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/heritage_arch.masjidtheme",
       "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/manifest.json"

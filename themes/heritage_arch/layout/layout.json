@@ -191,9 +191,9 @@
           "type": "path",
           "bounds": {
             "x": 0.64,
-            "y": 0.105,
+            "y": 0.065,
             "w": 0.08,
-            "h": 0.1
+            "h": 0.055
           },
           "backgroundColorHex": "#00000000",
           "borderColorHex": "#637C7167",
@@ -209,9 +209,9 @@
       ],
       "mosqueName": {
         "x": 0.565,
-        "y": 0.145,
+        "y": 0.12,
         "w": 0.215,
-        "h": 0.08,
+        "h": 0.065,
         "visible": true,
         "fontSizeSp": 20,
         "textColorHex": "#6A625B",
@@ -230,9 +230,9 @@
       },
       "clock": {
         "x": 0.53,
-        "y": 0.215,
+        "y": 0.205,
         "w": 0.29,
-        "h": 0.25,
+        "h": 0.27,
         "visible": true,
         "fontSizeSp": 98,
         "textColorHex": "#30363A",
@@ -273,9 +273,9 @@
         "alignment": "center"
       },
       "gregorianDay": {
-        "x": 0.57,
+        "x": 0.58,
         "y": 0.515,
-        "w": 0.05,
+        "w": 0.055,
         "h": 0.075,
         "visible": true,
         "fontSizeSp": 21,
@@ -285,10 +285,10 @@
         "fontWeight": "bold"
       },
       "gregorianMonth": {
-        "x": 0.49,
+        "x": 0.48,
         "y": 0.515,
-        "w": 0.095,
-        "h": 0.04,
+        "w": 0.09,
+        "h": 0.05,
         "visible": true,
         "fontSizeSp": 15,
         "textColorHex": "#554F49",
@@ -298,9 +298,9 @@
       },
       "gregorianYear": {
         "x": 0.505,
-        "y": 0.552,
+        "y": 0.565,
         "w": 0.07,
-        "h": 0.032,
+        "h": 0.035,
         "visible": true,
         "fontSizeSp": 10,
         "textColorHex": "#554F49",
@@ -324,7 +324,7 @@
         "x": 0.735,
         "y": 0.515,
         "w": 0.1,
-        "h": 0.04,
+        "h": 0.05,
         "visible": true,
         "fontSizeSp": 15,
         "textColorHex": "#554F49",
@@ -334,9 +334,9 @@
       },
       "hijriYear": {
         "x": 0.75,
-        "y": 0.552,
+        "y": 0.565,
         "w": 0.07,
-        "h": 0.032,
+        "h": 0.035,
         "visible": true,
         "fontSizeSp": 10,
         "textColorHex": "#554F49",
@@ -434,9 +434,9 @@
           "type": "path",
           "bounds": {
             "x": 0.43,
-            "y": 0.065,
+            "y": 0.055,
             "w": 0.14,
-            "h": 0.105
+            "h": 0.05
           },
           "backgroundColorHex": "#00000000",
           "borderColorHex": "#637C7167",
@@ -452,9 +452,9 @@
       ],
       "mosqueName": {
         "x": 0.285,
-        "y": 0.145,
+        "y": 0.105,
         "w": 0.43,
-        "h": 0.075,
+        "h": 0.055,
         "visible": true,
         "fontSizeSp": 20,
         "textColorHex": "#6A625B",
@@ -473,9 +473,9 @@
       },
       "clock": {
         "x": 0.26,
-        "y": 0.175,
+        "y": 0.17,
         "w": 0.48,
-        "h": 0.135,
+        "h": 0.13,
         "visible": true,
         "fontSizeSp": 110,
         "textColorHex": "#30363A",
@@ -485,9 +485,9 @@
       },
       "weekday": {
         "x": 0.34,
-        "y": 0.305,
+        "y": 0.31,
         "w": 0.32,
-        "h": 0.08,
+        "h": 0.07,
         "visible": true,
         "fontSizeSp": 29,
         "textColorHex": "#554F49",
@@ -541,7 +541,7 @@
       },
       "gregorianYear": {
         "x": 0.07,
-        "y": 0.34,
+        "y": 0.35,
         "w": 0.13,
         "h": 0.032,
         "visible": true,
@@ -577,7 +577,7 @@
       },
       "hijriYear": {
         "x": 0.79,
-        "y": 0.34,
+        "y": 0.35,
         "w": 0.13,
         "h": 0.032,
         "visible": true,
