@@ -17,7 +17,7 @@
     {
       "id": "mihrab_screens",
       "number": 2,
-      "version": 2,
+      "version": 1,
       "name": "محراب النقوش",
       "enabled": true,
       "order": 2,
@@ -30,15 +30,15 @@
     {
       "id": "laylat_sakina",
       "number": 3,
-      "version": 1,
+      "version": 2,
       "name": "ليلة السكينة",
       "enabled": true,
       "order": 3,
       "size": 5232750,
-      "sha256": "cbec017f6cd89ba659583efd7008c3a14fd86a37cb05282bf4c12c60e405cc7d",
-      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v2/themes/laylat_sakina/thumbnail.jpg",
-      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v2/dist/laylat_sakina.masjidtheme",
-      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v2/themes/laylat_sakina/manifest.json"
+      "sha256": "32625d0718cbc7f959b769f0447926449faed28f04a9aa68bb68e3f5989a2170",
+      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v3/themes/laylat_sakina/thumbnail.jpg",
+      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v3/dist/laylat_sakina.masjidtheme",
+      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v3/themes/laylat_sakina/manifest.json"
     }
   ]
 }

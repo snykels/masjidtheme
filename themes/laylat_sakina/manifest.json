@@ -9,7 +9,7 @@
   "version": 2,
   "enabled": true,
   "thumbnail": "thumbnail.jpg",
-  "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v2/dist/laylat_sakina.masjidtheme",
+  "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v3/dist/laylat_sakina.masjidtheme",
   "assets": {
     "portrait": "assets/portrait.png",
     "landscape": "assets/landscape.png"
