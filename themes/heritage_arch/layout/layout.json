@@ -202,8 +202,24 @@
           "opacity": 0.72,
           "visible": true,
           "pathCommands": [
-            {"op": "M", "values": [0.0, 1.0]},
-            {"op": "C", "values": [0.0, 0.12, 1.0, 0.12, 1.0, 1.0]}
+            {
+              "op": "M",
+              "values": [
+                0.0,
+                1.0
+              ]
+            },
+            {
+              "op": "C",
+              "values": [
+                0.0,
+                0.12,
+                1.0,
+                0.12,
+                1.0,
+                1.0
+              ]
+            }
           ]
         }
       ],
@@ -374,7 +390,7 @@
         "rowGapAfter": null,
         "gapDp": 0,
         "paddingDp": 0,
-        "showEnglishNames": true,
+        "showEnglishNames": false,
         "prayerTimeFontSizeSp": 40,
         "prayerNameFontSizeSp": 38,
         "iqamahFontSizeSp": 16,
@@ -445,8 +461,24 @@
           "opacity": 0.72,
           "visible": true,
           "pathCommands": [
-            {"op": "M", "values": [0.0, 1.0]},
-            {"op": "C", "values": [0.0, 0.12, 1.0, 0.12, 1.0, 1.0]}
+            {
+              "op": "M",
+              "values": [
+                0.0,
+                1.0
+              ]
+            },
+            {
+              "op": "C",
+              "values": [
+                0.0,
+                0.12,
+                1.0,
+                0.12,
+                1.0,
+                1.0
+              ]
+            }
           ]
         }
       ],
@@ -615,14 +647,14 @@
         "headerFontSizeSp": 16,
         "rowSpacingDp": 2,
         "rowGapAfter": "asr",
-        "gapDp": 30,
+        "gapDp": 16,
         "paddingDp": 0,
-        "showEnglishNames": true,
-        "prayerTimeFontSizeSp": 46,
-        "prayerNameFontSizeSp": 46,
+        "showEnglishNames": false,
+        "prayerTimeFontSizeSp": 40,
+        "prayerNameFontSizeSp": 40,
         "iqamahFontSizeSp": 16,
         "amPmFontSizeSp": 13,
-        "englishNameFontSizeSp": 16,
+        "englishNameFontSizeSp": 14,
         "englishNameColorHex": "#8A847E",
         "rowBackgroundColorHex": "#14B8B1A8",
         "rowPaddingHorizontalDp": 9
