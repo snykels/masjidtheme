@@ -9,7 +9,7 @@
   "version": 14,
   "enabled": true,
   "thumbnail": "thumbnail.webp",
-  "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/heritage_arch.masjidtheme",
+  "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/heritage-arch-v14/dist/heritage_arch.masjidtheme",
   "assets": {
     "portrait": "assets/portrait.webp",
     "landscape": "assets/landscape.webp"

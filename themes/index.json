@@ -8,11 +8,11 @@
       "name": "القوس التراثي",
       "enabled": true,
       "order": 1,
-      "size": 772039,
-      "sha256": "7a42d0147c528d1589cc5eced84570c0625dff9edc410d3e970d583ecf8de6c0",
-      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/thumbnail.webp",
-      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/heritage_arch.masjidtheme",
-      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/manifest.json"
+      "size": 772050,
+      "sha256": "f12c607ec8a5e932923715c19a3cc4b1c8d6a398e0459c0f998b9d00867db9c4",
+      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/heritage-arch-v14/themes/heritage_arch/thumbnail.webp",
+      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/heritage-arch-v14/dist/heritage_arch.masjidtheme",
+      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/heritage-arch-v14/themes/heritage_arch/manifest.json"
     },
     {
       "id": "mihrab_screens",
