@@ -4,10 +4,10 @@
 
 ## التوافق
 
-- Theme version: 1
+- Theme version: 2
 - Layout schema: extended-v1
 - يتطلب تطبيق Al-Masjid بإصدار 10 أو أحدث.
-- الخلفيات: `assets/portrait.webp` بنسبة 9:16 و`assets/landscape.webp` بنسبة 16:9.
+- الخلفيات: `assets/portrait.png` بنسبة 9:16 و`assets/landscape.png` بنسبة 16:9.
 - لا تحتوي الصور على وقت أو تاريخ أو أوقات صلاة؛ كل المحتوى الظاهر ديناميكي وقابل للتعديل من داخل التطبيق.
 
 ## الخط المضمّن
