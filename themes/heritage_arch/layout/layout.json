@@ -4,7 +4,7 @@
   "timeConfig": {
     "showSeconds": false,
     "clockShowAmPm": false,
-    "prayerShowAmPm": true,
+    "prayerShowAmPm": false,
     "is24h": false,
     "numberFormat": 0,
     "amPmColor": "#8A847E",
