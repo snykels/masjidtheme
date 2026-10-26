@@ -26,6 +26,19 @@
       "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/mihrab_screens/thumbnail.jpg",
       "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/mihrab_screens.masjidtheme",
       "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/mihrab_screens/manifest.json"
+    },
+    {
+      "id": "laylat_sakina",
+      "number": 3,
+      "version": 1,
+      "name": "ليلة السكينة",
+      "enabled": true,
+      "order": 3,
+      "size": 830141,
+      "sha256": "c19ff4198a5e243033e5ff6153ea57f65b5c96497344171551202c3faaea102f",
+      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v1/themes/laylat_sakina/thumbnail.jpg",
+      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v1/dist/laylat_sakina.masjidtheme",
+      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v1/themes/laylat_sakina/manifest.json"
     }
   ]
 }
