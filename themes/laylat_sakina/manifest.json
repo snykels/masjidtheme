@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "minimumAppVersion": 10,
+  "minimumAppVersion": 1,
   "id": 3,
   "order": 3,
   "themeNumber": 3,
   "name": "ليلة السكينة",
   "slug": "laylat_sakina",
-  "version": 2,
+  "version": 3,
   "enabled": true,
   "thumbnail": "thumbnail.jpg",
-  "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v3/dist/laylat_sakina.masjidtheme",
+  "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/laylat_sakina.masjidtheme",
   "assets": {
     "portrait": "assets/portrait.png",
     "landscape": "assets/landscape.png"
