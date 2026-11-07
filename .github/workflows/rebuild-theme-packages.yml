@@ -7,6 +7,10 @@ on:
       - 'themes/**/manifest.json'
   workflow_dispatch:
 
+concurrency:
+  group: rebuild-theme-packages
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
