@@ -4,25 +4,25 @@
     {
       "id": "heritage_arch",
       "number": 1,
-      "version": 14,
+      "version": 15,
       "name": "القوس التراثي",
       "enabled": true,
       "order": 1,
-      "size": 772050,
-      "sha256": "f12c607ec8a5e932923715c19a3cc4b1c8d6a398e0459c0f998b9d00867db9c4",
-      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/heritage-arch-v14/themes/heritage_arch/thumbnail.webp",
-      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/heritage-arch-v14/dist/heritage_arch.masjidtheme",
-      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/heritage-arch-v14/themes/heritage_arch/manifest.json"
+      "size": 772088,
+      "sha256": "f84cc2c7443f7be398f536fa5b8e7849c0f7d60e7eca8ba87a75514a2b683ce6",
+      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/thumbnail.webp",
+      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/heritage_arch.masjidtheme",
+      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/heritage_arch/manifest.json"
     },
     {
       "id": "mihrab_screens",
       "number": 2,
-      "version": 1,
+      "version": 2,
       "name": "محراب النقوش",
       "enabled": true,
       "order": 2,
-      "size": 378915,
-      "sha256": "a255dbeaf9cec4e2007a32da170036e10e8c8608ff83f96371cf366414a9f914",
+      "size": 378966,
+      "sha256": "b2ddc12ddb1fdcaf5a2afbac74c18b149d800684429e279b749f29fb6806a0e7",
       "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/mihrab_screens/thumbnail.jpg",
       "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/mihrab_screens.masjidtheme",
       "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/mihrab_screens/manifest.json"
@@ -30,15 +30,15 @@
     {
       "id": "laylat_sakina",
       "number": 3,
-      "version": 2,
+      "version": 3,
       "name": "ليلة السكينة",
       "enabled": true,
       "order": 3,
-      "size": 5232750,
-      "sha256": "32625d0718cbc7f959b769f0447926449faed28f04a9aa68bb68e3f5989a2170",
-      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v3/themes/laylat_sakina/thumbnail.jpg",
-      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v3/dist/laylat_sakina.masjidtheme",
-      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/refs/tags/laylat-sakina-v3/themes/laylat_sakina/manifest.json"
+      "size": 5232736,
+      "sha256": "3eb6fae3489a1e1465429133ee9683ed3315b9eeab0120309ecde2f2394cbc29",
+      "previewUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/laylat_sakina/thumbnail.jpg",
+      "url": "https://raw.githubusercontent.com/snykels/masjidtheme/main/dist/laylat_sakina.masjidtheme",
+      "manifestUrl": "https://raw.githubusercontent.com/snykels/masjidtheme/main/themes/laylat_sakina/manifest.json"
     }
   ]
 }
