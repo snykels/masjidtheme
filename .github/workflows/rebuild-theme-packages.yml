@@ -1,0 +1,43 @@
+name: Rebuild theme packages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'themes/**/manifest.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild packages and index
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="https://raw.githubusercontent.com/${{ github.repository }}/main"
+          for slug in heritage_arch mihrab_screens laylat_sakina; do
+            zip -q -j "dist/${slug}.masjidtheme" "themes/${slug}/manifest.json"
+            size="$(stat -c%s "dist/${slug}.masjidtheme")"
+            sha="$(sha256sum "dist/${slug}.masjidtheme" | cut -d' ' -f1)"
+            version="$(jq -r '.version' "themes/${slug}/manifest.json")"
+            thumbnail="$(jq -r '.thumbnail' "themes/${slug}/manifest.json")"
+            tmp="$(mktemp)"
+            jq --arg id "${slug}" --argjson version "${version}" --argjson size "${size}" \
+              --arg sha "${sha}" --arg preview "${repo}/themes/${slug}/${thumbnail}" \
+              --arg url "${repo}/dist/${slug}.masjidtheme" \
+              --arg manifest "${repo}/themes/${slug}/manifest.json" \
+              '(.themes[] | select(.id == $id)) |= (.version = $version | .size = $size | .sha256 = $sha | .previewUrl = $preview | .url = $url | .manifestUrl = $manifest)' \
+              themes/index.json > "${tmp}"
+            mv "${tmp}" themes/index.json
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist themes/index.json
+          git diff --cached --quiet || git commit -m "chore: rebuild theme packages"
+          git push
